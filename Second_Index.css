@@ -1,0 +1,166 @@
+/*
+  Josh's Custom CSS Reset
+  https://www.joshwcomeau.com/css/custom-css-reset/
+*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+}
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+#root,
+#__next {
+  isolation: isolate;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.header {
+  display: flex;
+  justify-content: flex-end;
+  text-align: center;
+  padding: 12px;
+  align-items: center;
+  /* background: gold; */
+}
+
+.header > * {
+  padding-left: 13px;
+  color: black;
+}
+
+.gmail-page {
+  cursor: pointer;
+}
+.gmail-page:hover {
+  text-decoration: underline;
+}
+
+.google-img {
+  cursor: pointer;
+}
+.google-img:hover {
+  text-decoration: underline;
+}
+.img-menu {
+  width: 35px;
+  cursor: pointer;
+}
+
+.img-menu:hover {
+  background-color: rgb(217, 216, 216);
+  border-radius: 60px;
+}
+
+.img-account {
+  width: 35px;
+  cursor: pointer;
+}
+.img-account:hover {
+  background-color: rgb(217, 216, 216);
+  border-radius: 60px;
+}
+
+.body {
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.logo-google {
+  width: 325px;
+  margin-bottom: 55px;
+}
+form {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+input {
+  width: 500px;
+  border-radius: 40px;
+  height: 58px;
+  padding-left: 37px;
+  outline: #b7b8d9 solid;
+  border: none;
+}
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 230px;
+}
+.search {
+  width: 20px;
+  position: absolute;
+  left: 10px;
+}
+.mic {
+  width: 36px;
+  position: absolute;
+  left: 458px;
+}
+
+.mic:hover {
+  cursor: pointer;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  /* background: gray; */
+}
+.wallpaper-infor {
+  background: rgba(128, 128, 128, 0.373);
+  padding: inherit;
+  border-radius: 10px;
+}
+.wallpaper-infor:hover {
+  background-color: rgb(218, 214, 214);
+}
+.footer__icon {
+  background: gray;
+  width: 30px;
+  border-radius: 60px;
+}
+.footer__icon:hover {
+  cursor: pointer;
+  background-color: rgb(200, 196, 196);
+}
